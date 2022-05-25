@@ -1,0 +1,17 @@
+function triangleOfNumbers(num){
+
+    for(let row = 1; row <= num; row++){
+        let currentNum = row;
+        let printLine = '';
+        for(let col = 1; col <= row; col++){
+            
+            printLine += currentNum + ' ';
+            
+            
+        }
+        console.log(printLine);
+    }
+    
+}
+
+triangleOfNumbers(5)
